@@ -1,0 +1,16 @@
+program UI_app;
+
+uses
+  Forms,
+  MainFormFragment in 'Forms\MainForm\MainFormFragment.pas' {MainForm},
+  LiveData in 'ReactiveUI\Core\LiveData.pas',
+  MainFormViewModel in 'Forms\MainForm\MainFormViewModel.pas',
+  MainFormTypes in 'Model\DataTypes\MainFormTypes.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TMainForm, MainForm);
+  Application.Run;
+end.

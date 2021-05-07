@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"intelephense.files.exclude": [
+			"**/.git/**",
+			"**/.svn/**",
+			"**/.hg/**",
+			"**/CVS/**",
+			"**/.DS_Store/**",
+			"**/node_modules/**",
+			"**/bower_components/**",
+			"**/vendor/**/{Tests,tests}/**",
+			"**/.history/**",
+			"**/vendor/**/vendor/**"
+		],
+		"files.exclude": {
+			"**/*.~pas": true,
+			"**/*.~dpr": true,
+			"**/*.~ddp": true,
+			"**/*.~dfm": true,
+			"**/*.dcu": true,
+			"**/*.ddp": true
+		}
+	}
+}
